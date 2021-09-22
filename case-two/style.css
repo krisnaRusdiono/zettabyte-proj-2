@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #141414;
+  overflow: hidden;
+}
+
+body .container {
+  text-align: center;
+  position: relative;
+}
+
+body .container .topside {
+  padding-top: 25px;
+  height: 50vh;
+  color: white;
+}
+
+body .container .topside h1 {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+body .container .center {
+  width: 100vw;
+  border-radius: 10px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 35%;
+}
+
+body .container .center .bl {
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0 1px 3px gray;
+          box-shadow: 0 1px 3px gray;
+}
+
+body .container .center .bl:hover {
+  outline: 4px solid white;
+  -webkit-box-shadow: 0 3px 5px gray;
+          box-shadow: 0 3px 5px gray;
+}
+
+body .container .center .bl h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body .container .center .bl ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .container .center .bl ul li {
+  display: block;
+  padding: 10px;
+}
+
+body .container .center .br {
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0 1px 3px gray;
+          box-shadow: 0 1px 3px gray;
+}
+
+body .container .center .br:hover {
+  outline: 4px solid white;
+  -webkit-box-shadow: 0 3px 5px gray;
+          box-shadow: 0 3px 5px gray;
+}
+
+body .container .center .br h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body .container .center .br ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+body .container .center .br ul li {
+  display: block;
+  padding: 10px;
+}
+
+body .container .bottomside {
+  height: 50vh;
+  background-color: #f0f0f0;
+}
+
+body .container .bottomside .content {
+  padding-top: 25vh;
+  display: block;
+}
+
+body .container .bottomside .content h2 {
+  font-weight: lighter;
+  font-size: 1em;
+}
+/*# sourceMappingURL=style.css.map */
